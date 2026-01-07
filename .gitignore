@@ -1,0 +1,26 @@
+# --- Live Build Generated Files ---
+binary/
+chroot/
+config/binary
+config/bootstrap
+config/chroot
+config/common
+config/source
+.build/
+local/
+cache/
+config/hooks/live/*
+config/hooks/normal/*
+
+# --- Artifacts ---
+*.iso
+*.img
+*.tar
+*.tar.gz
+*.log
+*.list
+*.packages
+
+# --- System ---
+.DS_Store
+Thumbs.db

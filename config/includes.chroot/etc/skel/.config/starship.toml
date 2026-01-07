@@ -1,0 +1,27 @@
+# MakerOS Starship Config
+format = """
+[░▒▓](#84cc16)\
+[  MakerOS ](bg:#84cc16 fg:#020617)\
+[](fg:#84cc16 bg:#1e293b)\
+$directory\
+[](fg:#1e293b bg:#0f172a)\
+$git_branch\
+$git_status\
+[](fg:#0f172a)\
+$character"""
+
+[directory]
+style = "bg:#1e293b fg:#e2e8f0"
+format = "[ $path ]($style)"
+
+[git_branch]
+style = "bg:#0f172a"
+format = "[[ $symbol $branch ](fg:#84cc16 bg:#0f172a)]($style)"
+
+[git_status]
+style = "bg:#0f172a"
+format = "[[($all_status$ahead_behind )](fg:#84cc16 bg:#0f172a)]($style)"
+
+[character]
+success_symbol = "[➜](bold #84cc16)"
+error_symbol = "[✗](bold #ef4444)"

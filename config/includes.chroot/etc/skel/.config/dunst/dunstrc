@@ -1,0 +1,29 @@
+[global]
+    width = 300
+    height = 300
+    origin = top-right
+    offset = 20x50
+    scale = 0
+    notification_limit = 5
+
+    ### Aparência ###
+    font = Space Grotesk Medium 10
+    frame_width = 2
+    frame_color = "#84cc16"
+    separator_color = frame
+    corner_radius = 12
+
+    ### Cores ###
+    # Fundo escuro com transparência (depende do Picom para o blur real)
+    [urgency_low]
+        background = "#020617E6"
+        foreground = "#f8fafc"
+
+    [urgency_normal]
+        background = "#020617E6"
+        foreground = "#f8fafc"
+
+    [urgency_critical]
+        background = "#ef4444"
+        foreground = "#ffffff"
+        frame_color = "#ffffff"
