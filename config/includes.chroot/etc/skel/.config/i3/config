@@ -127,6 +127,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit MakerOS?' -B 'Yes' 'i3-msg exit'"
+bindsym $mod+Shift+p exec --no-startup-id /usr/local/bin/makeros-performance-toggle
 
 # Resize Mode
 mode "resize" {
